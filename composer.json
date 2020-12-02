@@ -1,0 +1,28 @@
+{
+	"name": "slothsoft/trialoftwo",
+    "description": "Trial of Two Stuff",
+    "license": "WTFPL",
+	"authors": [
+        {
+            "name": "Daniel Schulz",
+            "email": "info.slothsoft@gmail.com"
+        }
+	],
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "slothsoft/core": "^1.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"Slothsoft\\ToT\\": "src/"
+		}
+	},
+    "keywords": [
+        "slothsoft",
+        "trialoftwo",
+        "docs"
+    ],
+    "classmap-authoritative": false,
+    "homepage": "http://trialoftwo.slothsoft.net"
+}
